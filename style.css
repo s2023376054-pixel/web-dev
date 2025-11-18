@@ -1,25 +1,6 @@
-#myheading{
-    background-color: aqua;
-}
-
-.hd{
-    background-color: red;
-}
-<style>
-  table {
-    width: 60%;
-    border-collapse: collapse;
+/* In your style.css file */
+.profile-pic {
+    width: 100px;       /* Sets a fixed width */
+    height: 100px;      /* Sets a fixed height */
+    border-radius: 50%; /* Example of CSS styling: makes the image circular */
   }
-  th, td {
-    border: 1px solid #000;
-    padding: 8px;
-    text-align: center;
-  }
-  th {
-    background-color: #ddd;
-  }
-  caption {
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-</style>
